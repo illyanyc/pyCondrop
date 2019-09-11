@@ -17,15 +17,15 @@
 	Running the application in Anaconda Python environment is advised.
 	The following python modules are required, please use pip to install the dependancies:
 
-	```
-	pip install opencv-python
-	pip install scikit-image, scikit-learn, scipy, scimage
-	pip install numpy, pandas
-	pip install matplotlib
-	pip install imutils, pathlib, pytest-shutil
-	pip install -U wxPython
-	pip install tqdm
-	```
+```
+pip install opencv-python
+pip install scikit-image, scikit-learn, scipy, scimage
+pip install numpy, pandas
+pip install matplotlib
+pip install imutils, pathlib, pytest-shutil
+pip install -U wxPython
+pip install tqdm
+```
 
 ##TROUBLESHOOTING
 
