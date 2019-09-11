@@ -1,4 +1,4 @@
- # PyCondrop 0.18.12
+ # PyCondrop 0.19.09
 
 ## README
 
@@ -38,9 +38,9 @@ pip install tqdm
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
-##Chemistry Department, College of Staten Island
-	2800 Victory Blvd, Building 6S
-	Staten Island, NY 10314
+Chemistry Department, College of Staten Island
+2800 Victory Blvd, Building 6S
+Staten Island, NY 10314
 https://www.csi.cuny.edu/academics-and-research/departments-programs/chemistry
 
 
