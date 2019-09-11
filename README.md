@@ -2,13 +2,14 @@
 
 ## README
 
-	PyCondrop is a set of computer vision utilities for photovoltaic (PV) glass soiling analysis.
+	PyCondrop is a set of computer vision utilities for photovoltaic (PV) glass soiling analysis,
+	for evaluation of anti-soiling and self-cleaning surface coatings.
 	The programs included in the software package allow the user to:
 		- Analyze dew formation on the PV glass in laboratory and field conditions
 			-- Determine the dew drop size and location
 			-- Help user to calculate dew drop slide off times
-			-- Automatically calculate and map the area and location of parts of glass cleaned by sliding dewdrops
-			-- Provide tools for quantification of dust deposition on the surface of PV glass
+		- Automatically calculate and map the area and location of parts of glass cleaned by sliding dewdrops
+		- Provide tools for quantification of dust deposition on the surface of PV glass
 
 
 ## REQUIREMENTS
@@ -34,11 +35,13 @@ pip install tqdm
 	illya.nayshevsky@csi.cuny.edu
 
 ## License
-	[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://choosealicense.com/licenses/mit/)
 
 
 ##Chemistry Department, College of Staten Island
 	2800 Victory Blvd, Building 6S
 	Staten Island, NY 10314
+https://www.csi.cuny.edu/academics-and-research/departments-programs/chemistry
+
 
 
