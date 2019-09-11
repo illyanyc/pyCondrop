@@ -17,7 +17,7 @@
 	Running the application in Anaconda Python environment is advised.
 	The following python modules are required, please use pip to install the dependancies:
 
-```
+```bash
 pip install opencv-python
 pip install scikit-image, scikit-learn, scipy, scimage
 pip install numpy, pandas
@@ -27,7 +27,7 @@ pip install -U wxPython
 pip install tqdm
 ```
 
-##TROUBLESHOOTING
+## TROUBLESHOOTING
 
 	Any trouble encountered with the software should be reported to:
 	Illya Nayshevsky
