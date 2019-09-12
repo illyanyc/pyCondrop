@@ -1,6 +1,6 @@
- # PyCondrop 0.19.09
+# PyCondrop 0.19.09
 
-## README
+## Readme
 PyCondrop is a set of computer vision utilities for photovoltaic (PV) glass soiling analysis,
 for evaluation of anti-soiling and self-cleaning surface coatings.
 The programs included in the software package allow the user to:
@@ -18,7 +18,7 @@ Provide tools for quantification of dust deposition on the surface of PV glass
 - Using light refleaction intensity methods
 
 
-## REQUIREMENTS
+## Requirements
 
 Python 3.6 is required to run the application.<br />
 [Anaconda Python](https://conda.io/projects/conda/en/latest/user-guide/install/index.html?highlight=conda) environment is advised. <br />
@@ -34,11 +34,11 @@ pip install -U wxPython
 pip install tqdm
 ```
 
-## USAGE
+## Usage
 For instructions on how to use the software please contact me: illya.nayshevsky@csi.cuny.edu
 I will be updating this section by November 2019.
 
-## TROUBLESHOOTING
+## Troubleshooting
 
 Any trouble encountered with the software should be reported to:
 Illya Nayshevsky<br />
