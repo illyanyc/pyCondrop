@@ -15,13 +15,13 @@ Automatically calculate and map the area and location of parts of glass cleaned 
 
 ### PySurfaceArea
 Provide tools for quantification of dust deposition on the surface of PV glass
-	- Using light refleaction intensity methods
+- Using light refleaction intensity methods
 
 
 ## REQUIREMENTS
 
-Python 3.6 is required to run the application.
-[Anaconda Python](https://conda.io/projects/conda/en/latest/user-guide/install/index.html?highlight=conda) environment is advised. 
+Python 3.6 is required to run the application.<br />
+[Anaconda Python](https://conda.io/projects/conda/en/latest/user-guide/install/index.html?highlight=conda) environment is advised. <br />
 Please use [pip](https://pip.pypa.io/en/stable/) to install the following dependancies:
 
 ```bash
@@ -41,9 +41,9 @@ Illya Nayshevsky
 illya.nayshevsky@csi.cuny.edu
 
 ## Authors and acknowledgment
-Chemistry Department, College of Staten Island
-2800 Victory Blvd, Building 6S
-Staten Island, NY 10314
+Chemistry Department, College of Staten Island<br />
+2800 Victory Blvd, Building 6S<br />
+Staten Island, NY 10314<br />
 https://www.csi.cuny.edu/academics-and-research/departments-programs/chemistry
 
 ## License
