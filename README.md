@@ -37,14 +37,15 @@ pip install tqdm
 ## TROUBLESHOOTING
 
 Any trouble encountered with the software should be reported to:
-Illya Nayshevsky
+Illya Nayshevsky<br />
 illya.nayshevsky@csi.cuny.edu
 
 ## Authors and acknowledgment
-Chemistry Department, College of Staten Island<br />
+College of Staten Island<br />
+Chemistry Department<br />
 2800 Victory Blvd, Building 6S<br />
 Staten Island, NY 10314<br />
-https://www.csi.cuny.edu/academics-and-research/departments-programs/chemistry
+[CSI CUNY Homepage](https://www.csi.cuny.edu/academics-and-research/departments-programs/chemistry)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/) 
