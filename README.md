@@ -34,6 +34,10 @@ pip install -U wxPython
 pip install tqdm
 ```
 
+## USAGE
+For instructions on how to use the software please contact me: illya.nayshevsky@csi.cuny.edu
+I will be updating this section by November 2019.
+
 ## TROUBLESHOOTING
 
 Any trouble encountered with the software should be reported to:
