@@ -8,11 +8,11 @@
 
 ### PyDrop
 	Analyze dew formation on the PV glass in laboratory and field conditions
-		- Determine the dew drop size and location
-		- Help user to calculate dew drop slide off times
+	- Determine the dew drop size and location
+	- Help user to calculate dew drop slide off times
 	Automatically calculate and map the area and location of parts of glass cleaned by sliding dewdrops using OpenCV methods
-		- Smart detection of dew water drops on the surface of the PV glass
-		- Motion detaction and drop path calculation
+	- Smart detection of dew water drops on the surface of the PV glass
+	- Motion detaction and drop path calculation
 ### PySurfaceArea
 	Provide tools for quantification of dust deposition on the surface of PV glass
 		- Using light refleaction intensity methods
@@ -20,9 +20,9 @@
 
 ## REQUIREMENTS
 
-	PyCondrop is written in Python 3.6.
-	Running the application in Anaconda Python environment is advised.
-	The following python modules are required, please use pip to install the dependancies:
+	Python 3.6 is required to run the application.
+	[Anaconda Python](https://conda.io/projects/conda/en/latest/user-guide/install/index.html?highlight=conda) environment is advised. 
+	Please use [pip](https://pip.pypa.io/en/stable/) to install the following dependancies:
 
 ```bash
 pip install opencv-python
@@ -40,14 +40,17 @@ pip install tqdm
 	Illya Nayshevsky
 	illya.nayshevsky@csi.cuny.edu
 
+## Authors and acknowledgment
+	Chemistry Department, College of Staten Island
+	2800 Victory Blvd, Building 6S
+	Staten Island, NY 10314
+	https://www.csi.cuny.edu/academics-and-research/departments-programs/chemistry
+
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+	[MIT](https://choosealicense.com/licenses/mit/) 
 
 
-Chemistry Department, College of Staten Island
-2800 Victory Blvd, Building 6S
-Staten Island, NY 10314
-https://www.csi.cuny.edu/academics-and-research/departments-programs/chemistry
+
 
 
 
