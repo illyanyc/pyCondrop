@@ -254,11 +254,11 @@ def timelapse_video(path, name, interval, length_sec, vid_bool,  vid_lenth):
 # make_video(dir, videoname, format, csv_file_path, image_path)
 # writevideo(videoname, path, format, csv_file_path, width, height, image_directory, startframe)
 videoname = "Hybrid_FullLenght.mp4"
-path ="/Users/illyanayshevskyy/Dropbox/5.Ph.D.Research/0.HybridSurfaces/2018 - Soiling Experiments/190823-Full_Lenght_Hybrid/"
+path ="/Users/illyanayshevskyy/Dropbox/5.Ph.D.Research/0.HybridSurfaces/Temporary Folder/Hybrid-D17-NaCl"
 csv_file_path = path
 
 startframe = 1
-dir_image ="/Users/illyanayshevskyy/Dropbox/5.Ph.D.Research/0.HybridSurfaces/2018 - Soiling Experiments/190823-Full_Lenght_Hybrid/"
+dir_image ="/Users/illyanayshevskyy/Dropbox/5.Ph.D.Research/0.HybridSurfaces/Temporary Folder/Hybrid-D17-NaCl"
 image_directory = dir_image
 
 make_video(image_directory, videoname, csv_file_path, image_directory)

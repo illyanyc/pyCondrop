@@ -45,7 +45,7 @@ def makeVideo_withCaption_byDict(keys): # make video from a dictionary
                 vid.MakeVideo_withCaption(dir,video_name, ".mp4", dir_csv, dir_image, location_ofTags)
 
 def makeVideo_withCaption():
-    v = "/Users/illyanayshevskyy/Dropbox/3-Ph.D. Research/0.Hybrid Surfaces/Abrasive Method(restored)/180505-HS2mm4mm3row-T3/Timeline Images/"
+    v = "/Users/illyanayshevskyy/Dropbox/5.Ph.D.Research/0.HybridSurfaces/Temporary Folder/Hybrid-D17-NaCl/"
     dir = v + "Refined Images/"
     dir_image = v + "Refined Images/"
     dir_csv = v + "180505-HS2mm4mm3row-T3.csv"

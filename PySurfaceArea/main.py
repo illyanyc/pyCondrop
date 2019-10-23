@@ -16,7 +16,6 @@ global g_mean
 global g_stdev
 global g_min
 global g_max
-
 def path_leaf(path):
                 head, tail = ntpath.split(path)
                 return tail or ntpath.basename(head)

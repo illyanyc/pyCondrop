@@ -80,7 +80,7 @@ def MakeVideo(dir, videoname, format, csv_file_path, image_path, fpm, set_bounds
             cv2.putText(frame, str(x)+", "+str(y), bottomLeftCornerOfText, font, fontScale, fontColor, lineType)
             coordinates.append([int(x*2),int(y*2)])
 
-    frame = cv2.resize(frame, None, fx=1, fy=1)
+    frame = cv2.resize(frame, None, fx=0.5, fy=0.5)
     cv2.imshow('Set Up The Feature Areas', frame)
     cv2.setMouseCallback('Set Up The Feature Areas', Set_image_bounds)  # Set bounds for video
 
@@ -109,8 +109,8 @@ def MakeVideo(dir, videoname, format, csv_file_path, image_path, fpm, set_bounds
     # Process files
     if work == True:
         print ("Processing, please wait...")
-
-        video = cv2.VideoWriter(videooutput, 1, 16, (x2-x1, y2-y1))
+        fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+        video = cv2.VideoWriter(videooutput, fourcc, 20.0, (x2-x1, y2-y1))
 
         count = 0
         sec = 0
@@ -155,10 +155,19 @@ def MakeVideo(dir, videoname, format, csv_file_path, image_path, fpm, set_bounds
             text = "Time [hh:mm:ss] : " + printtime
 
             img = cv2.imread(image) # get image
-            img = img[y_top:y_bottom, x_left:x_right, :].copy()
+
             if angle != 0:
-                img = imutils.rotate_bound(img, angle)
-                cv2.imshow("Rotated", img)
+                img = imutils.rotate(img, angle)
+                #img = imutils.rotate_bound(rotated, angle)
+                #cv2.imshow("Rotated", img)
+
+
+
+            img = img[y_top:y_bottom, x_left:x_right, :].copy()
+
+            gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+            img = cv2.cvtColor(gray, cv2.COLOR_GRAY2BGR)
 
             # set font of test overlay
             x_max = x_right - x_left
@@ -167,9 +176,9 @@ def MakeVideo(dir, videoname, format, csv_file_path, image_path, fpm, set_bounds
             font = cv2.FONT_HERSHEY_SIMPLEX
             bottomLeftCornerOfText = (x_max - int((x_max * 0.9)), y_max - 25)
             topLeftCornerOfText = (x_max - int((x_max * 0.9)), y_max - int((y_max * 0.85)))
-            fontScale = x_max / 600
-            fontColor = (255, 255, 255)
-            lineType = 3
+            fontScale = x_max / 1000
+            fontColor = (0,0,0)
+            lineType = 1
 
 
             # write time-string to image
@@ -828,5 +837,14 @@ def write_data_to_csv(_list):
         w = csv.writer(out)
         w.writerow(_list)
 
-# GetVariableFrameRate("/Users/illyanayshevskyy/Dropbox/3-Ph.D. Research/0.Superhydrophobic Condensation and Heat Transfer/Water Jumping Effect Experiments/0.Publication/0.Data/Illya/CA179/Selected","2018-09-18-179CA-37dT")
+# Make Video
+dir = "/Users/illyanayshevskyy/Dropbox/5.Ph.D.Research/0.HybridSurfaces/2019 - Soiling Experiments/2019 - Soiling - Jordan/Data/Hydroscopic Soilant Analysis/Experiment Videos/Hybrid-E1-ARD/"
+image_path = dir
+csv_file_path = ""
+videoname = "Hybrid-E1-ARD"
+fpm = 1
+angle = -2
+set_bounds = True
+format = ".mp4"
 
+MakeVideo(dir, videoname, format, csv_file_path, image_path, fpm, set_bounds, angle)
