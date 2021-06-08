@@ -15,12 +15,13 @@ The programs included in the software package allow the user to:
 
 ![PyDrop](img/PyDrop.png)
 
-Analyze dew formation on the PV glass in laboratory and field conditions
-- Determine the dew drop size and location
-- Help user to calculate dew drop slide off times
-Automatically calculate and map the area and location of parts of glass cleaned by sliding dewdrops using OpenCV methods
-- Smart detection of dew water drops on the surface of the PV glass
-- Motion detaction and drop path calculation
+This program analyzes dew formation on the PV glass in laboratory and field conditions.
+
+- Determines the dew drop size and location.
+- Helps user to calculate dew drop slide off times.
+- Automatically calculates and maps the area and location of parts of glass cleaned by sliding dewdrops using OpenCV methods.
+- Provides smart detection of dew water drops on the surface of the PV glass.
+- Motion detaction and drop path calculation.
 
 ---
 
@@ -28,8 +29,10 @@ Automatically calculate and map the area and location of parts of glass cleaned 
 
 ![PySurfaceArea](img/PySurfaceArea.png)
 
-Provide tools for quantification of dust deposition on the surface of PV glass
-- Using light refleaction intensity methods
+Provides tools for quantification of dust deposition on the surface of PV glass.
+
+- Calculates % Surface Area Coverage (%SAC) of dust on the surface of the solar glass
+- Using light refleaction intensity methods to take into account thickness of the dust coating on glass.
 
 ---
 
